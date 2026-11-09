@@ -1,0 +1,27 @@
+# 操作系统与编辑器临时文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+~$*
+.~lock.*#
+
+# 本地凭据与个人环境；示例配置须使用虚构值并人工检查
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.local.*
+secrets.local.*
+.local/
+
+# 临时生成物；正式附件与证据不得放在这里
+.cache/
+__pycache__/
